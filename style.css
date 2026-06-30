@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+       background: linear-gradient(135deg, #8B3A3A, #A0522D);
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: center;
+       margin: 0px;
+       height: 100vh;
+
+}
+.container {
+     margin-top: 150px;
+     max-width: 600px;
+     text-align: center;
+     padding: 20px 40px;
+     background-color: rgb(238, 106, 106);
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     position: relative;
+}
+h1{
+     text-align: center;
+     font-size: 1.5rem;
+     margin-top: 30px;
+     margin-bottom: 10px;
+     color: black;
+}
+p {
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: black;
+}
+.guess-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    margin: 20px 10px;
+ 
+    
+
+}
+input {
+  padding: 10px;
+  border-radius: 0.8rem;
+  border: 2px solid #d36767;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(8, 8, 8, 0.2);
+  color: #b33939;
+  outline: none;
+}
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 20px;
+
+
+}
+button {
+    padding: 8px 15px;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: #d24c4c;
+    border-radius: 10px;
+    border: rgb(202, 99, 99)
+}
+button:hover {
+    background-color: #A0522D;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#result {
+  font-size: 24px;
+  margin-top: 20px;
+}
